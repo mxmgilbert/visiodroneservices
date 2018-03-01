@@ -1,1 +1,7 @@
 path: web/wp
+@development:
+ssh: vagrant@visiodroneservices.test/srv/www/example.com/current
+@staging:
+ssh: admin@staging.example.com/srv/www/example.com/current
+@production:
+ssh: admin@example.com/srv/www/example.com/current

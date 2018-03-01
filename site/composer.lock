@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a0eed1f3cd4aec1056dbb2b5e96533c1",
+    "content-hash": "2354af2a44f59db1a991896b464d0d19",
     "packages": [
         {
             "name": "composer/installers",
@@ -402,6 +402,26 @@
                 "environment"
             ],
             "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/coming-soon",
+            "version": "5.0.17",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/coming-soon/",
+                "reference": "tags/5.0.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/coming-soon.5.0.17.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/coming-soon/"
         },
         {
             "name": "wpackagist-plugin/contact-form-7",
