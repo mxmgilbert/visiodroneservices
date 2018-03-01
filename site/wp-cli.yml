@@ -1,5 +1,1 @@
 path: web/wp
-@development:
-ssh: vagrant@visiodroneservices.test/srv/www/visiodroneservices.fr/current
-@production:
-ssh: admin@visiodroneservices.fr/srv/www/visiodroneservices.fr/current
