@@ -17,6 +17,7 @@ users:
       - https://github.com/mxmgilbert.keys
 
 web_user: web
+admin_user: ubuntu
 web_group: www-data
 web_sudoers:
   - "/usr/sbin/service php7.2-fpm *"
